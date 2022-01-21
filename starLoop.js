@@ -1,9 +1,17 @@
 function starLoop(n) {
-  
+	if(n<0){
+		console.log("Number Invalid")
+	}
+	else{
+		for(let i=0;i<n;i++){
+			console.log('*')
+		}
+	}
+	
 }
 
 // TEST CASE
-starLoop(1)
+starLoop(4)
 // *
 
 starLoop(2)
